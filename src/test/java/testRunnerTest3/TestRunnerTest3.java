@@ -12,7 +12,7 @@ import utilityTest3.BaseClassTest3;
 
 @CucumberOptions(features= {"src/test/resources/FeatureFolderTest3"},
 plugin={"json:target/cucumber.json"},
-glue="stepDefinationTest3", tags= "@Launchurl3"
+glue="stepDefinationTest3", tags= "@SignupTest3"//@Launchurl3 and
 		)
 
 public class TestRunnerTest3 extends AbstractTestNGCucumberTests{
@@ -32,7 +32,7 @@ public class TestRunnerTest3 extends AbstractTestNGCucumberTests{
 			 
 			 BaseClassTest3 test = new BaseClassTest3();
 			 
-			// test.driver.quit();
+			 test.driver.quit();
 			 
 			
 		 
