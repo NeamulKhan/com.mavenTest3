@@ -12,7 +12,7 @@ import utilityTest3.BaseClassTest3;
 
 @CucumberOptions(features= {"src/test/resources/FeatureFolderTest3"},
 plugin={"json:target/cucumber.json"},
-glue="stepDefinationTest3", tags= "@SignupTest3 and @@LoginTest3"//@Launchurl3 and
+glue="stepDefinationTest3", tags= "@LoginTest3"// or @SignupTest3 ")//@Launchurl3 and
 		)
 
 public class TestRunnerTest3 extends AbstractTestNGCucumberTests{
